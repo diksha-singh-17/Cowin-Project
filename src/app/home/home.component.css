@@ -1,0 +1,88 @@
+/* img {
+  height: 500px;
+} */
+.banner-area {
+  background-color: rgb(146, 187, 196);
+  /* background-color: rgb(92, 97, 121); */
+}
+.container {
+  margin-top: -30px;
+}
+.image-tracker {
+  display: flex;
+  justify-content: center;
+}
+.image-tracker-first {
+  position: relative;
+  height: 500px;
+  width: 1000px;
+  padding-left: 0px;
+  /* padding-right: 30px; */
+  z-index: 1;
+  /* opacity: 0.33; */
+}
+.image-tracker-second {
+  height: 300px;
+  width: 500px;
+  opacity: 0.33;
+  padding-top: 150px;
+  /* padding-right: 300px; */
+}
+.count-number {
+  padding-top: 20px;
+}
+.section-wrapper {
+  padding: 0px;
+}
+.container-fluid {
+  /* border: 2px solid red; */
+  padding-top: 160px;
+  padding-bottom: 28px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.container {
+  border: 2px solid rgb(249, 252, 255);
+}
+.corona-image {
+  width: 100px;
+  height: 100px;
+}
+.corona-inner {
+  display: flex;
+  flex-direction: row;
+}
+h6 {
+  color: rgb(255, 51, 114);
+}
+.container {
+  background-color: white;
+}
+.btn {
+  border: 2px solid rgb(255, 51, 114);
+  padding: 16px 25px;
+  font-size: small;
+  font-weight: bold;
+  color: rgb(255, 51, 114);
+}
+.img-corona-stats {
+  height: 450px;
+  width: 450px;
+}
+/* .box {
+  display: flex;
+} */
+.para {
+  width: 800px;
+  /* height: 350px; */
+}
+.corona-count-bottom {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+h2,
+h6,
+p,
+li {
+  padding: 10px;
+}

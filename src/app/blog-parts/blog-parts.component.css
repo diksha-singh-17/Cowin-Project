@@ -1,0 +1,33 @@
+.service-blog {
+  /* background-color: rgb(1, 88, 176); */
+  padding-bottom: 20px;
+}
+.image-blog {
+  height: 350px;
+  width: 400px;
+}
+h5,
+a,
+p {
+  padding: 10px;
+  text-decoration: none;
+}
+h5:hover,
+.blog-date:hover,
+a:hover {
+  color: rgb(255, 51, 114);
+  cursor: pointer;
+}
+.blog-footer {
+  padding: 20px;
+  align-items: center;
+}
+.blog-header {
+  /* width: 1000px; */
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  /* padding-left: 150px; */
+  padding-top: 50px;
+  padding-bottom: 20px;
+}

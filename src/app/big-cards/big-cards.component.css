@@ -1,0 +1,28 @@
+.section-header {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.team-section {
+  padding: 50px;
+}
+.team-content {
+  padding: 20px;
+}
+.paragraph-alignment {
+  /* width: 1000px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* padding-left: 150px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}

@@ -1,0 +1,39 @@
+.gutter-section {
+  padding: 100px;
+}
+.para {
+  color: rgb(156, 71, 237);
+}
+.gutter-header {
+  text-align: center;
+}
+.gutter-title {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.gutter-content {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: rgb(26, 176, 211);
+  border-radius: 10px;
+  padding: 20px;
+  color: aliceblue;
+}
+.gutter-small-image {
+  height: 100px;
+  width: 100px;
+  /* padding-right: 10px; */
+}
+.gutter-text {
+  padding-left: 20px;
+}
+.row {
+  display: flex;
+}
+.avoid {
+  margin-left: 20px;
+}
+.gutter-content.avoid {
+  background-color: rgb(213, 56, 77);
+}

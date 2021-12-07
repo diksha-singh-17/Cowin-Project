@@ -1,0 +1,31 @@
+.container-fluid {
+  padding-bottom: 100px;
+}
+.service-content {
+  color: black;
+}
+.image-symptoms-0ne {
+  height: 150px;
+  width: 150px;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  /* background-color: violet; */
+}
+.section-wrapper {
+  padding-left: 70px;
+}
+.corona-service-header {
+  background-color: rgb(6, 55, 147);
+  color: white;
+}
+.card-header {
+  /* width: 1000px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  /* padding-left: 150px; */
+  padding-top: 50px;
+  padding-bottom: 20px;
+}

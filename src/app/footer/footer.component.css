@@ -1,0 +1,20 @@
+.menu-list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.title,
+.content,
+a,
+p {
+  color: white;
+}
+footer {
+  background-color: rgb(11, 20, 90);
+  padding-top: 100px;
+}
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

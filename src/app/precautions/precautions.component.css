@@ -1,0 +1,21 @@
+.image-corona {
+  height: 600px;
+  width: 630px;
+  /* padding-top: 150px; */
+}
+.service-blog {
+  /* background-color: violet; */
+  background-color: rgb(2, 23, 50);
+  /* padding-top: 100px; */
+  /* padding-bottom: 60px; */
+}
+.content-part {
+  color: white;
+  /* padding: 50px; */
+}
+li,
+h2,
+p,
+h6 {
+  padding: 10px;
+}

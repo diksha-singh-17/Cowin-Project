@@ -1,0 +1,77 @@
+.prevention-header {
+  background-image: url(./../../assets/back-02.jfif);
+  height: 400px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.prevention-title {
+  text-align: center;
+  color: white;
+}
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.contact-us {
+  padding: 50px;
+  margin-top: 100px;
+}
+.container {
+  padding: 20px;
+}
+.container-fluid {
+  /* border: 1px solid brown; */
+  padding: 30px;
+  margin-bottom: -70px;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+input {
+  width: 350px;
+  padding: 10px;
+}
+.message {
+  width: 726px;
+  margin-left: 11px;
+}
+.field {
+  padding: 10px;
+}
+.btn {
+  width: 180px;
+  padding: 16px 25px;
+  background-color: rgb(255, 51, 114);
+
+  color: white;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+}
+.container-map {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* .map-image {
+  z-index: -1;
+  position: absolute;
+} */
+input .ng-invalid {
+  border: 1px solid red;
+}
+.error-email {
+  color: red;
+}
+.btn-secondary {
+  background-color: grey;
+  padding: 10px;
+}
+.css-1gdgjp9 {
+  display: none !important;
+}
