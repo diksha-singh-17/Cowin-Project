@@ -75,3 +75,10 @@ input .ng-invalid {
 .css-1gdgjp9 {
   display: none !important;
 }
+* {
+  margin: 0;
+}
+#map {
+  width: 100%;
+  height: 500px;
+}
