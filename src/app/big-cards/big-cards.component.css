@@ -11,18 +11,17 @@
 .team-content {
   padding: 20px;
 }
-.paragraph-alignment {
-  /* width: 1000px; */
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  /* padding-left: 150px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
+ul {
+  padding-left: 0;
 }
 li {
   list-style: none;
   border-bottom: 1px solid gray;
   border-left: 1px solid gray;
   border-top: 1px solid gray;
+  border-right: 1px solid gray;
+}
+i {
+  border-right: 1px solid gray;
+  line-height: 27px;
 }

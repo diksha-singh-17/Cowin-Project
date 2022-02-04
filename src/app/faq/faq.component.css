@@ -1,1 +1,14 @@
-
+.accordion-itemm {
+  margin-bottom: 40px;
+}
+.section-header {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(231, 241, 255);
+}
+.section-header p {
+  margin-bottom: 30px;
+}

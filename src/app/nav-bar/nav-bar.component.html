@@ -1,6 +1,10 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <img class="img-fluid logo-image" src="./../../assets/large.png" alt="" />
+    <img
+      class="img-fluid rounded-circle"
+      src="./../../assets/large.png"
+      alt=""
+    />
     <button
       class="navbar-toggler"
       type="button"
@@ -12,8 +16,13 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- menu toggle -->
+    <!-- <button (click)="toggle()">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <!-- menu toggle end    *ngIf="showme"-->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a
             class="nav-link active dropdown-toggle"
@@ -111,12 +120,12 @@
           <a class="nav-link active" routerLink="callus">Contact</a>
         </li>
       </ul>
-      <form class="d-flex">
+      <div class="d-flex px-4">
         <button type="button " class="btn btn-lg rounded-pill">
           ARE YOU SICK
         </button>
         <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-      </form>
+      </div>
     </div>
   </div>
 </nav>

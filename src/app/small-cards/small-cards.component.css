@@ -13,9 +13,12 @@
   height: 300px;
   /* background-color: violet; */
 }
-.section-wrapper {
-  padding-left: 70px;
+@media screen and (min-width: 425px) {
+  .section-wrapper {
+    padding-left: 70px;
+  }
 }
+
 .corona-service-header {
   background-color: rgb(6, 55, 147);
   color: white;

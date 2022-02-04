@@ -22,13 +22,19 @@
           <div class="nav-text">
             <p>Showing 01 - 12 of 139 Results</p>
           </div>
-          <div class="nav-icon">
-            <a href=""></a>
-            <a href=""></a>
+          <div
+            class="class= d-flex justify-content-end"
+            style="margin-left: 547px"
+          >
+            <i class="fas fa-list"></i>
+            <!-- <i class="fas fa-align-left"></i> -->
           </div>
         </div>
         <div class="shop-product row justify-content-center">
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div
+            class="col-lg-4 col-md-6 col-12 mt-4"
+            *ngFor="let items of record"
+          >
             <div class="card">
               <div class="shop-item">
                 <div class="shop-image">
@@ -39,254 +45,53 @@
                   />
                 </div>
                 <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
+                  <h5>{{ items.title }}</h5>
+                  <p c>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
                   </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- ** -->
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
-                  </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- ** -->
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
-                  </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- for 2nd row -->
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
-                  </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i>*****</i>
-                  </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
-                  </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 3rd row -->
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
-                  </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
-                  </p>
-                  <h6>$200</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mt-4">
-            <div class="card">
-              <div class="shop-item">
-                <div class="shop-image">
-                  <img
-                    src="./../../assets/DR01.jpg"
-                    alt=""
-                    class="img-fluid shop-item-image"
-                  />
-                </div>
-                <div class="shop-text">
-                  <h5>Product Title Here</h5>
-                  <p class="star-icon">
-                    <i></i>
-                  </p>
-                  <h6>$200</h6>
+                  <h6>{{ items.price }}</h6>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Pagination -->
-        <!-- <nav aria-label="page-nav ">
-          <ul class="pagination pagination-lg mt-5">
-            <li class="page-item active" aria-current="page">
-              <span class="page-link">1</span>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">...</a></li>
-            <li class="page-item" aria-current="page">
-              <span class="page-link">4</span>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">5</a></li>
-            <li class="page-item"><a class="page-link" href="#">6</a></li>
-          </ul>
-        </nav> -->
       </div>
       <!-- side-bar -->
       <div class="col-lg-3 col-md-7 col-12">
         <div class="side">
           <div class="search">
-            <input class="search-input" type="text" placeholder="Search....." />
+            <!-- <input class="search-input" type="text" placeholder="Search....." /> -->
+            <input
+              (keyup)="Filter($event)"
+              placeholder="Ex. Dixa"
+              #input
+              autocomplete="off"
+            />
+            <!-- <i class="fas fa-search"></i> -->
           </div>
-          <!-- <div class="shop">
-            <div class="shop-header">
-              <h5>All Categories</h5>
-            </div>
-            <div class="shop-menu">
-              <ul class="menu-list">
-                <li class="menu-list-item">
-                  <a href="">Code Optimization</a>
-                  <ul class="shop-submenu">
-                    <li class="menu-item-list-children">
-                      <a href="">All Products</a>
-                      <ul class="shop-submenu">
-                        <li>
-                          <a href="">All Products</a>
-                        </li>
-                        <li><a href="">Seo</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div> -->
+
           <div class="flex-shrink-0 p-3 bg-white" style="width: 280px">
             <a
               href="/"
-              class="
-                d-flex
-                align-items-center
-                pb-3
-                mb-3
-                link-dark
-                text-decoration-none
-                border-bottom
-              "
+              class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"
             >
               <svg class="bi me-2" width="30" height="24">
                 <use xlink:href="#bootstrap"></use>
               </svg>
-              <span class="fs-5 fw-semibold">Collapsible</span>
+              <span class="fs-5 fw-semibold"><b> Categories</b></span>
             </a>
             <ul class="list-unstyled ps-0">
               <li class="mb-1">
-                <button
+                <div
                   class="btn btn-toggle align-items-center rounded collapsed"
                   data-bs-toggle="collapse"
                   data-bs-target="#home-collapse"
                   aria-expanded="false"
                 >
-                  Home
-                </button>
+                  Home &ensp; <i class="fas fa-chevron-down"></i>
+                </div>
                 <div class="collapse" id="home-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li><a href="#" class="link-dark rounded">Overview</a></li>
@@ -295,15 +100,16 @@
                   </ul>
                 </div>
               </li>
+              <li class="border-top my-3"></li>
               <li class="mb-1">
-                <button
+                <div
                   class="btn btn-toggle align-items-center rounded collapsed"
                   data-bs-toggle="collapse"
                   data-bs-target="#dashboard-collapse"
                   aria-expanded="false"
                 >
-                  Dashboard
-                </button>
+                  Dashboard <i class="fas fa-chevron-down"></i>
+                </div>
                 <div class="collapse" id="dashboard-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li><a href="#" class="link-dark rounded">Overview</a></li>
@@ -313,15 +119,16 @@
                   </ul>
                 </div>
               </li>
+              <li class="border-top my-3"></li>
               <li class="mb-1">
-                <button
+                <div
                   class="btn btn-toggle align-items-center rounded collapsed"
                   data-bs-toggle="collapse"
                   data-bs-target="#orders-collapse"
                   aria-expanded="false"
                 >
-                  Orders
-                </button>
+                  Orders <i class="fas fa-chevron-down"></i>
+                </div>
                 <div class="collapse" id="orders-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li><a href="#" class="link-dark rounded">New</a></li>
@@ -333,14 +140,14 @@
               </li>
               <li class="border-top my-3"></li>
               <li class="mb-1">
-                <button
+                <div
                   class="btn btn-toggle align-items-center rounded collapsed"
                   data-bs-toggle="collapse"
                   data-bs-target="#account-collapse"
                   aria-expanded="false"
                 >
-                  Account
-                </button>
+                  Account <i class="fas fa-chevron-down"></i>
+                </div>
                 <div class="collapse" id="account-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li><a href="#" class="link-dark rounded">New...</a></li>

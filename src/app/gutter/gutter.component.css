@@ -20,6 +20,11 @@
   padding: 20px;
   color: aliceblue;
 }
+@media screen and (max-width: 465px) {
+  .gutter-content {
+    flex-direction: column;
+  }
+}
 .gutter-small-image {
   height: 100px;
   width: 100px;

@@ -18,10 +18,15 @@ a {
   color: white;
 }
 .protection-header {
-  padding: 100px;
+  /* padding: 100px; */
   background-color: rgb(249, 252, 255);
 }
 
+@media screen and (min-width: 430px) {
+  .protection-header {
+    padding-left: 70px;
+  }
+}
 .para,
 h2 {
   text-align: center;
@@ -46,9 +51,9 @@ h2 {
 .card-text {
   text-align: center;
 }
-.card-content {
+/* .card-content {
   padding: 10px;
-}
+} */
 .para {
   color: rgb(156, 71, 237);
 }

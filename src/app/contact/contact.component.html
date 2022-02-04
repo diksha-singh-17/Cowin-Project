@@ -21,42 +21,37 @@
           <h5>Contact Informations</h5>
         </div>
         <ul class="contact-content">
-          <li class="contact-item">
-            <div class="contact-icon">
-              <i></i>
-            </div>
+          <li class="contact-item d-flex">
+            <i class="fas fa-location-arrow"></i>
+
             <div class="content">
-              <h6>Our Location</h6>
+              <h6>&ensp;Our Location</h6>
               <p>218 Sahera Tropical Center Room#7 New Elephant Road 1205</p>
             </div>
           </li>
           <hr />
-          <li class="contact-item">
-            <div class="contact-icon">
-              <i></i>
-            </div>
+          <li class="contact-item d-flex">
+            <i class="fas fa-phone-alt"></i>
+
             <div class="content">
-              <h6>Phone Number</h6>
+              <h6>&ensp;Phone Number</h6>
               <p>+91876543389,9876543210<br />7865432189</p>
             </div>
           </li>
           <hr />
-          <li class="contact-item">
-            <div class="contact-icon">
-              <i></i>
-            </div>
-            <div class="content">
-              <h6>Email Address</h6>
+          <li class="contact-item d-flex">
+            <i class="fas fa-envelope"></i>
+
+            <span class="content">
+              <h6>&ensp;Email Address</h6>
               <p>suport@admincovid.com</p>
-            </div>
+            </span>
           </li>
           <hr />
-          <li class="contact-item">
-            <div class="contact-icon">
-              <i></i>
-            </div>
+          <li class="contact-item d-flex">
+            <i class="fab fa-wikipedia-w"></i>
             <div class="content">
-              <h6>Website Address:</h6>
+              <h6>&ensp;Website Address:</h6>
               <p>http://admincovid.com</p>
             </div>
           </li>
@@ -77,6 +72,7 @@
                 placeholder="Your Name"
                 class="contact-input"
                 formControlName="name"
+                class="input"
               />
               <div
                 *ngIf="getControl.name.touched && getControl.name.invalid"
@@ -100,6 +96,7 @@
                 placeholder="Your Email"
                 class="contact-input"
                 formControlName="email"
+                class="input"
               />
               <div
                 *ngIf="getControl.email.touched && getControl.email.invalid"
@@ -121,6 +118,7 @@
                 placeholder="Your Address"
                 class="contact-input"
                 formControlName="address"
+                class="input"
               />
             </div>
             <div class="field col-lg-6 col-12">
@@ -130,6 +128,7 @@
                 placeholder="Your Company"
                 class="contact-input"
                 formControlName="text"
+                class="input"
               />
             </div>
 

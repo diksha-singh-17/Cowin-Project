@@ -71,7 +71,7 @@ export class ContactComponent implements OnInit,AfterViewInit{
           ...markerInfo
         });
   
-        //creating a new info window with markers info
+         //creating a new info window with markers info
         const infoWindow = new google.maps.InfoWindow({
           content: marker.getTitle()
         });
@@ -110,13 +110,7 @@ ngOnInit(): void {
     return this.contactForm.controls;
   }
   // map
-
-
-
  
- 
-    
-    
     }
  
 

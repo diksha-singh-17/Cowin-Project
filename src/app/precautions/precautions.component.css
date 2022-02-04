@@ -3,6 +3,12 @@
   width: 630px;
   /* padding-top: 150px; */
 }
+@media screen and (max-width: 430px) {
+  .image-corona {
+    height: 270px;
+    width: 300px;
+  }
+}
 .service-blog {
   /* background-color: violet; */
   background-color: rgb(2, 23, 50);
